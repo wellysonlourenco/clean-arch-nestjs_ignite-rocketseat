@@ -1,0 +1,5 @@
+docker-compose up -d
+^^rodar em 2º plano
+
+docker ps
+
