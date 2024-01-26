@@ -131,7 +131,11 @@ dist
 
 
 # ENV
-.env
+#.env
 
 # Docker
 data/
+
+
+##KEY
+##.pem
