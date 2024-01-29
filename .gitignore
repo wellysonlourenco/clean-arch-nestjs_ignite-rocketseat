@@ -135,8 +135,3 @@ dist
 
 # Docker
 data/
-
-
-##KEY
-.pem
-.txt

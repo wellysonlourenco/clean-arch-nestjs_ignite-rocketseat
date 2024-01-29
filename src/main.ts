@@ -6,7 +6,7 @@ import { Env } from './env';
 async function bootstrap() {
   const app = await NestFactory.create(AppModule,
     {
-      logger: false,
+      //logger: true,
     });
 
 
