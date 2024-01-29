@@ -3,3 +3,9 @@ docker-compose up -d
 
 docker ps
 
+RSA Key Generator
+https://cryptotools.net/rsagen
+
+
+File to Base64
+https://base64.guru/converter/encode/file
