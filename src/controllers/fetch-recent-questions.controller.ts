@@ -24,17 +24,17 @@ export class FetchRecentQuestionController {
 
     @Get()
     async handle(@Query('page', queryValidatioPipe) page: PageQueryParamSchema  ) {
-        const perPage = 1
+        const perPage = 20
 
 
-        const question = await this.prisma.question.findMany({
-            take: 1,
+        const questions = await this.prisma.question.findMany({
+            take: perPage,
             skip: (page -1) * perPage,
             orderBy: {
                 createdAt: "desc",
             },
         })
 
-        return question
+        return {questions}
     }
 }
