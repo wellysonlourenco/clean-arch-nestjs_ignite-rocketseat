@@ -1,7 +1,8 @@
 # Clean Architecture With NestJS
 
+![Screenshot_1](https://github.com/wellysonlourenco/clean-arch-nestjs_ignite-rocketseat/assets/21048010/0216acbb-01f8-4a18-9ef6-73e6cde086cb)
 
-
+<br>
 ### Running the project
 
 1. Run `docker-compose up -d` to start the database.
