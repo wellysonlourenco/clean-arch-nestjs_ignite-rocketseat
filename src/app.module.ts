@@ -11,11 +11,10 @@ import { PrismaService } from './prisma/prisma.service';
 @Module({
   imports: [
     ConfigModule.forRoot({
-    validate: env => envSchema.parse(env),
-    isGlobal: true,
+      validate: (env) => envSchema.parse(env),
+      isGlobal: true,
     }),
     AuthModule,
-
   ],
   controllers: [
     CreateAccountController,
@@ -23,6 +22,6 @@ import { PrismaService } from './prisma/prisma.service';
     CreateQuestionController,
     FetchRecentQuestionController,
   ],
-  providers: [PrismaService,],
+  providers: [PrismaService],
 })
 export class AppModule {}
