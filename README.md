@@ -1,6 +1,6 @@
 # Clean Architecture With NestJS
 
-![Screenshot_1](https://github.com/wellysonlourenco/clean-arch-nestjs_ignite-rocketseat/assets/21048010/0216acbb-01f8-4a18-9ef6-73e6cde086cb)
+<img src="https://github.com/wellysonlourenco/clean-arch-nestjs_ignite-rocketseat/assets/21048010/0216acbb-01f8-4a18-9ef6-73e6cde086cb" alt="Screenshot_1" width="450">
 
 <br>
 ### Running the project
